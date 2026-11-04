@@ -1,0 +1,21 @@
+[project]
+name = "ganquickdrawproyect"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "JuanDiegoVel", email = "juandiegovelacoquintero4@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "torch>=2.15.0",
+]
+
+[project.scripts]
+ganquickdrawproyect = "ganquickdrawproyect:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
